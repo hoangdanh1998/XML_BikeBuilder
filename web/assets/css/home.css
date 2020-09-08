@@ -1,0 +1,101 @@
+#result-message {
+    padding: 20px;
+}
+
+
+.home_main {
+    height: calc(100vh - 144px);
+}
+
+.home_main.view {
+    display: flex;
+    margin-top: -13px;
+}
+
+.home_main.home_main--left {
+    width: 350px;
+    border-right: 1px solid #ddd;
+}
+
+.home_main.home_main--right {
+    flex: 1;
+    overflow: scroll;
+}
+
+.home_main.home_form {
+    padding: 16px;
+}
+
+#pagination-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#pagination-container > div > * {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#pagination-container button {
+    padding: 12px 24px;
+    width: auto;
+    border-radius: 5px;
+}
+
+label input {
+    display: none;
+}
+
+label .checker {
+    margin: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #aaa;
+    color: #aaa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+label .checker.text {
+    margin: 5px;
+    border-radius: 15px;
+
+    width: auto;
+    height: auto;
+
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: 1px solid #aaa;
+    color: #aaa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+label input:checked + .checker {
+    border: 1px solid #ff6868;
+    color: #ff6868;
+}
+
+.btn-primary {
+    background-color: #ff6868;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#result-detail {
+    margin-top: 15px;
+}
